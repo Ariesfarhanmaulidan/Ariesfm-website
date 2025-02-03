@@ -1,0 +1,66 @@
+a/* Reset dasar */
+body, h1, h2, p, ul, table, footer {
+    margin: 0;
+    padding: 0;
+    font-family: Times new roman, font-family;
+}
+
+/* Header */
+header {
+    background-color: #00FFFF;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Section */
+section {
+    padding: 20px;
+    margin: 10px 0;
+}
+
+section h2 {
+    color: #4CAF50;
+    border-bottom: 2px solid #FFD700;
+    padding-bottom: 5px;
+}
+
+/* Tabel */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 10px 0;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #008000;
+    margin-top: 20px;
+}
